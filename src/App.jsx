@@ -13,6 +13,7 @@ import FormularioDenuncia from './components/FormularioDenuncia';
 import AtendimentoOnline from './components/AtendimentoOnline';
 import CDCViewer from './components/CDCViewer';
 import MinhasDenunciasList from './components/MinhasDenunciasList';
+import RankingEmpresasReclamadas from './components/RankingEmpresasReclamadas';
 import TotemInterface from './components/TotemInterface';
 import ProtectedRoute from './components/ProtectedRoute';
 import AuthFlow from './components/AuthFlow';
@@ -177,6 +178,8 @@ function AppContent() {
                   }
                 />
                 <Route path="/cdc" element={<CDCViewer />} />
+                <Route path="/ranking-empresas" element={<RankingEmpresasReclamadas />} />
+                <Route path="/portal-cursos" element={<div>Portal de Cursos em breve...</div>} />
                 <Route
                   path="/minhas-denuncias"
                   element={
