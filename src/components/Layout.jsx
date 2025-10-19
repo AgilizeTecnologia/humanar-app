@@ -29,28 +29,14 @@ const Layout = ({ children }) => {
       <header className="bg-white shadow-lg border-b-4 border-blue-600 sticky top-0 z-40">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <Link to="/" className="flex items-center space-x-4">
-              <div className="flex flex-col items-center">
-                <div className="text-xs font-semibold text-gray-700 mb-1">Alô Consumidor</div>
-                <img
-                  src="/logo-alo-consumidor.jpg"
-                  alt="Alô Consumidor"
-                  className="w-16 h-16 object-contain"
-                />
-                <div className="text-center mt-1">
-                  <div className="text-[10px] font-medium text-gray-600">Governo do Distrito Federal</div>
-                  <div className="text-[9px] text-gray-500">Secretaria de Defesa do Consumidor do D.F.</div>
-                </div>
-              </div>
-              <div className="hidden md:block">
-                <h1 className="text-xl font-bold text-gray-800">Portal do Consumidor</h1>
-                <p className="text-sm text-gray-600">Protegendo seus direitos</p>
-              </div>
+            <Link to="/" className="flex flex-col items-center justify-center">
+              <p className="text-lg font-semibold text-gray-700 mb-2">Secretaria de Defesa do Consumidor do Distrito Federal</p>
+              <img src="/ico-logo-gdf.svg" alt="Governo do Distrito Federal" className="h-12" />
             </Link>
 
             <div className="flex items-center space-x-4">
               {/* Desktop Navigation */}
-              <nav className="hidden lg:flex space-x-8">
+              <nav className="hidden lg:flex space-x-8 mt-4">
                 {navItems.map(({ path, label }) => (
                   <Link
                     key={path}
