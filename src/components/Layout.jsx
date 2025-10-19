@@ -35,8 +35,14 @@ const Layout = ({ children }) => {
             </Link>
 
             <div className="flex items-center space-x-4">
+              {/* Right side: Alô Consumidor Logo and title */}
+              <div className="flex flex-col items-center justify-center">
+                <img src="/alo_logo.jpeg" alt="Alô Consumidor" className="h-12" />
+                <p className="text-lg font-semibold text-gray-700 mt-2">Alô Consumidor</p>
+              </div>
+
               {/* Desktop Navigation */}
-              <nav className="hidden lg:flex space-x-8 mt-4">
+              <nav className="hidden lg:flex space-x-8">
                 {navItems.map(({ path, label }) => (
                   <Link
                     key={path}
