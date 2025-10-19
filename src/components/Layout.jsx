@@ -30,11 +30,18 @@ const Layout = ({ children }) => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center space-x-4">
+              <div className="flex flex-col items-center">
+                <div className="text-xs font-semibold text-gray-700 mb-1">Alô Consumidor</div>
                 <img
-                  src="/ico-logo-gdf.svg"
-                  alt="Agilize Tecnologia - GDF"
-                  className="h-16 object-contain"
+                  src="/logo-alo-consumidor.jpg"
+                  alt="Alô Consumidor"
+                  className="w-16 h-16 object-contain"
                 />
+                <div className="text-center mt-1">
+                  <div className="text-[10px] font-medium text-gray-600">Governo do Distrito Federal</div>
+                  <div className="text-[9px] text-gray-500">Secretaria de Defesa do Consumidor do D.F.</div>
+                </div>
+              </div>
               <div className="hidden md:block">
                 <h1 className="text-xl font-bold text-gray-800">Portal do Consumidor</h1>
                 <p className="text-sm text-gray-600">Protegendo seus direitos</p>
