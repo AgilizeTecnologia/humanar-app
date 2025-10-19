@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
     { path: '/', label: 'Início', icon: HomeIcon },
     { path: '/denuncias', label: 'Denúncias', icon: Shield },
     { path: '/atendimento', label: 'Atendimento', icon: Phone },
-    { path: '/cdc', label: 'CDC', icon: FileText },
+    { path: '/cdc', label: 'Código do Consumidor', icon: FileText },
     { path: '/minhas-denuncias', label: 'Minhas Denúncias', icon: List },
     { path: '/ranking-empresas', label: 'Ranking Empresas Reclamadas', icon: TrendingUp },
     { path: '/portal-cursos', label: 'Portal de Cursos', icon: FileText },
