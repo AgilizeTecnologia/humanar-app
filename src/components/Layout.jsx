@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Shield, Phone, FileText, Home as HomeIcon, List, User, LogOut } from 'lucide-react';
+import { Menu, X, Shield, Phone, FileText, Home as HomeIcon, List, User, LogOut, TrendingUp } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 const Layout = ({ children }) => {
