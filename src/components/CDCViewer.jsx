@@ -10,7 +10,7 @@ const CDCViewer = () => {
   // const [expandedArticle, setExpandedArticle] = useState(null);
 
   // A URL do seu livro digital interativo no Vercel
-  const vercelBookUrl = "https://seu-projeto-no-vercel.vercel.app/"; // <-- SUBSTITUA PELA SUA URL REAL DO VERCEl
+  const vercelBookUrl = "https://shttps://livro-cdc-interativo-9ym8.vercel.app/";
 
   return (
     <div className="min-h-screen bg-gray-100 py-10">
