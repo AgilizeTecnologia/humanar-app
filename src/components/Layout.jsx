@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
     { path: '/minhas-denuncias', label: 'Minhas Denúncias', icon: List },
     { path: '/ranking-empresas', label: 'Ranking Empresas Reclamadas', icon: TrendingUp },
     { path: '/portal-cursos', label: 'Portal de Cursos', icon: FileText },
+    { path: '/codigo-online', label: 'Código On-line', icon: FileText },
   ];
 
   const handleLogout = () => {

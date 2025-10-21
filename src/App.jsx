@@ -17,6 +17,7 @@ import RankingEmpresasReclamadas from './components/RankingEmpresasReclamadas';
 import TotemInterface from './components/TotemInterface';
 import ProtectedRoute from './components/ProtectedRoute';
 import AuthFlow from './components/AuthFlow';
+import CodigoOnline from './components/CodigoOnline';
 
 // Componente de elementos flutuantes
 const FloatingElements = () => (
@@ -180,6 +181,7 @@ function AppContent() {
                 <Route path="/cdc" element={<CDCViewer />} />
                 <Route path="/ranking-empresas" element={<RankingEmpresasReclamadas />} />
                 <Route path="/portal-cursos" element={<div>Portal de Cursos em breve...</div>} />
+                <Route path="/codigo-online" element={<CodigoOnline />} />
                 <Route
                   path="/minhas-denuncias"
                   element={
